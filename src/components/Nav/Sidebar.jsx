@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
-import LogoIcon from "../../assets/svg/Logo";
+import logoIcon from "../../assets/images/logo.png";
 import AboutUs from "../../screens/aboutUs";
 import Eamah_logo from "../../assets/img/Eamah_logo.png";
 import eamah_text from "../../assets/img/eamah_text.png";
@@ -13,8 +13,18 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
     <Wrapper className="animate lightBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
-          <Img src={Eamah_logo} alt="Eamah Entreprenure" />
-          <Img1 src={eamah_text} alt="Eamah Entreprenure" />
+          <Img src={logoIcon} alt="Safinat al noor" />
+          <h1
+            style={{
+              marginLeft: "15px",
+              // fontWeight: "bold",
+              fontSize: "2rem",
+              color: "#4169E1",
+              fontFamily: "Brush Script MT ",
+            }}
+          >
+            Safinat al Noor
+          </h1>
         </div>
         <CloseBtn
           onClick={() => toggleSidebar(!sidebarOpen)}
@@ -100,7 +110,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Products
           </RouterLink>
         </li>
-        <li className="semiBold font15 pointer">
+        {/* <li className="semiBold font15 pointer">
           <RouterLink
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -113,7 +123,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Blogs
           </RouterLink>
-        </li>
+        </li> */}
 
         <li className="semiBold font15 pointer">
           <RouterLink

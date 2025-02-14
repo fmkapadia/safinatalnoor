@@ -34,7 +34,7 @@ export default function TopNavbar() {
           <RouterLink className="pointer flexNullCenter" to="/" smooth={true}>
             {/* <LogoIcon />
              */}
-            <Img src={logo} alt="Eamah Entreprenure" />
+            <Img src={logo} alt="Safinat al Noor" />
             {/* <Img1 src={eamah_text} alt="Eamah Entreprenure" /> */}
             <h1
               style={{
