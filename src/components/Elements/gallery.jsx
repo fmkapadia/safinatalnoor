@@ -6,10 +6,18 @@ import "react-image-lightbox/style.css";
 
 //Import Images
 import contactus from "../../assets/img/contactus.webp";
-import fans from "../../assets/images/Fans/5StepAdjustment.webp";
+import fans from "../../assets/images/Fans/ceilingFan830.webp";
+import fasteners from "../../assets/images/fastners/alamFastners.webp";
+import furniture from "../../assets/images/furniture/halfRound.webp";
+import handTools from "../../assets/images/handTools/3pcsbrushes.webp";
+import heaters from "../../assets/images/heaters/ariston100l.webp";
+import ladders from "../../assets/images/ladders/2Stepladder.webp";
+import paint from "../../assets/images/paints/miniPaintKit.webp";
+import rope from "../../assets/images/rope/cottonRope.webp";
+import waterPumps from "../../assets/images/waterPumps/carWashfoamMachine.webp";
+import weighing from "../../assets/images/weighingProducts/craneScale.webp";
 import gt from "../../assets/images/garageTools/2pcsBoosterCable.webp";
 import sanitary from "../../assets/images/sanitary/18vBrushless125mm.webp";
-import fastners from "../../assets/images/fastners/alamFastners.webp";
 // Styled Components
 const SectionWrapper = styled.section`
   padding: 60px 0;
@@ -127,7 +135,20 @@ const FilterItem = styled.li`
 `;
 
 //creating array of images for image portfolio
-const images = [fans, gt, sanitary, fastners];
+const images = [
+  fans,
+  gt,
+  sanitary,
+  fasteners,
+  rope,
+  ladders,
+  paint,
+  furniture,
+  waterPumps,
+  weighing,
+  heaters,
+  handTools,
+];
 
 class Work extends Component {
   constructor(props) {
@@ -141,31 +162,31 @@ class Work extends Component {
 
         {
           image: gt,
-          title: "Fastners",
+          title: "Garage Tools",
         },
         {
           image: sanitary,
           title: "Sanitary ",
         },
         {
-          image: fastners,
-          title: "Garage Tools",
+          image: fasteners,
+          title: "Fasteners",
         },
 
         {
-          image: fans,
+          image: paint,
           title: "Paint And Accessories",
         },
         {
-          image: gt,
+          image: rope,
           title: "Rope",
         },
         {
-          image: sanitary,
+          image: heaters,
           title: "Water Heaters",
         },
         {
-          image: fastners,
+          image: ladders,
           title: "Ladders",
         },
 
@@ -175,20 +196,20 @@ class Work extends Component {
         },
 
         {
-          image: gt,
+          image: waterPumps,
           title: "Water Pumps",
         },
         {
-          image: sanitary,
+          image: weighing,
           title: "Weighing Products",
         },
 
         {
-          image: fastners,
+          image: furniture,
           title: "Furniture Accessories",
         },
         {
-          image: fans,
+          image: handTools,
           title: "Hand Tools",
         },
         {

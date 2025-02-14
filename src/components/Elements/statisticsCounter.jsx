@@ -33,7 +33,7 @@ const CounterBox = styled.div`
 
 const IconWrapper = styled.div`
   font-size: 3rem;
-  color: #123011;
+  color: #4169e1;
   margin-right: 1rem; /* Add space between icon and text */
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@ const TextWrapper = styled.div`
 const CounterNumber = styled.div`
   font-size: 2.5rem;
   font-weight: bold;
-  color: #333;
+  color: #862633;
 `;
 
 const CounterLabel = styled.div`

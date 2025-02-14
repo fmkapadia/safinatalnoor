@@ -125,7 +125,7 @@ export default function Services() {
               className="flexSpaceCenter"
             >
               <AddLeft>
-                <h4 style={{ color: "#123011", fontSize: "40px" }}>
+                <h4 style={{ color: "#4169E1", fontSize: "40px" }}>
                   A few words about company
                 </h4>
                 {/* <h2 className="font40 extraBold">A Study of Creativity</h2> */}
@@ -147,7 +147,7 @@ export default function Services() {
                     to="/aboutUs"
                     style={{
                       fontSize: "1.2rem",
-                      backgroundColor: "#123011",
+                      backgroundColor: "#862633",
                       borderRadius: "1rem",
                       color: "#fff",
                       marginRight: "1rem",
@@ -164,7 +164,7 @@ export default function Services() {
                     to="/contactUs"
                     style={{
                       fontSize: "1.2rem",
-                      backgroundColor: "#123011",
+                      backgroundColor: "#862633",
                       borderRadius: "1rem",
                       color: "#fff",
                       // margin: "3rem",

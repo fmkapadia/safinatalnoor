@@ -11,8 +11,18 @@ import Products from "./screens/productsEquipments.jsx";
 import Blogs from "./screens/blogs.jsx";
 import ProductsCompany from "./screens/productsCompany.jsx";
 import ProductsEquipments from "./screens/productsEquipments.jsx";
+import Fans from "./screens/fans.jsx";
+import Fastners from "./screens/fastners.jsx";
+import Sanitary from "./screens/sanitary.jsx";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Heaters from "./screens/waterHeaters.jsx";
+import Furniture from "./screens/furniture.jsx";
+import Ladders from "./screens/ladders.jsx";
+import Rope from "./screens/rope.jsx";
+import GarageTools from "./screens/garageTools.jsx";
+import WaterPumps from "./screens/waterPumps.jsx";
+import WeighingProducts from "./screens/weighingProducts.jsx";
 
 export default function App() {
   return (
@@ -43,13 +53,28 @@ export default function App() {
           <Route path="/contactUs" element={<ContactUs />} /> {/* New page */}
           <Route path="/careers" element={<Careers />} />
           <Route path="/contacts" element={<Careers />} />
-
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/products" element={<Products />} />
           <Route path="/blogs" element={<Blogs />} />
           {/* <Route path="/products/equipments" element={<ProductsEquipments />} /> */}
           <Route path="/products" element={<ProductsEquipments />} />
           <Route path="/products/company" element={<ProductsCompany />} />
+          <Route path="/products/fans" element={<Fans />} />
+          <Route path="/products/fasteners" element={<Fastners />} />
+          <Route path="/products/sanitary" element={<Sanitary />} />
+          <Route path="/products/water-heaters" element={<Heaters />} />
+          <Route
+            path="/products/furniture-accessories"
+            element={<Furniture />}
+          />
+          <Route path="/products/rope" element={<Rope />} />
+          <Route path="/products/ladders" element={<Ladders />} />
+          <Route path="/products/garage-tools" element={<GarageTools />} />
+          <Route path="/products/water-pumps" element={<WaterPumps />} />
+          <Route
+            path="/products/weighing-products"
+            element={<WeighingProducts />}
+          />
           {/* Route for Careers */}
         </Routes>
       </Router>

@@ -51,7 +51,7 @@ const TitleStyle = styled.h2`
   max-width: 300px;
   margin: 0 auto;
   padding: 20px 0;
-  color: #123011;
+  color: #862633;
   @media (max-width: 860px) {
     padding: 20px 0;
   }

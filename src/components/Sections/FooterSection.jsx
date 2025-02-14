@@ -120,12 +120,12 @@ class FooterSection extends Component {
         { title: "Products", link: "/products" },
         // { title: "Team", link: "#" },
         { title: "ContactUs", link: "/contactUs" },
-        { title: "Blogs", link: "/blogs" },
+        // { title: "Blogs", link: "/blogs" },
       ],
       usefulLinks: [
         {
           icon: "linkedin",
-          url: "https://www.linkedin.com/company/eamah-entrepreneur/",
+          url: "#",
         },
         { icon: "facebook", url: "#" },
         { icon: "instagram", url: "#" },
@@ -142,14 +142,20 @@ class FooterSection extends Component {
             {/* Company Info */}
             <Col lg={5} xs={12} className="mb-4">
               <Link to="#" className="logo-footer">
-                <img
-                  src={eamah_text}
-                  alt="logo"
-                  style={{ width: "10rem", height: "2rem" }}
-                />
+                <h1
+                  style={{
+                    marginLeft: "1px",
+                    // fontWeight: "bold",
+                    fontSize: "1.8rem",
+                    color: "#4169E1",
+                    fontFamily: "Brush Script MT ",
+                  }}
+                >
+                  Safinat al Noor
+                </h1>
               </Link>
               <p className="mt-4" style={{ fontSize: "1.2rem", color: "#000" }}>
-                Driving innovation in the pharmaceutical industry.
+                Built to Last, Priced to Save.
               </p>
               <SocialIconList>
                 {/* "facebook", "instagram", "twitter", */}
@@ -184,40 +190,19 @@ class FooterSection extends Component {
             </Col>
             <Col lg={4} md={4} className="mt-4">
               <FooterHead>Contact Information</FooterHead>
-              {/* <p style={{ fontSize: "1.2rem", color: "#000" }}>
-                A-032, 04th Floor, Dosa, Sandhurst Road (West), Mumbai 400 009
-              </p>
-              <ContactInfo>
-                <strong>Email:</strong>
-                purchase@eamahent.com /
-                <br />
-                sales@eamahent.com/
-                <br />
-                info@eamahent.com
-              </ContactInfo>
-              <p style={{ fontSize: "1.2rem", color: "#000" }}>
-                <strong>Email:</strong> purchase@eamahent.com/sales@eamahent.com
-                / info@eamahent.com
-              </p>
 
-              <p style={{ fontSize: "1.2rem", color: "#000" }}>
-                <strong>Phone:</strong> +91-22-23744952/+91-9870601200
-              </p> */}
               <ContactDetails>
                 <p>
                   <strong>Address: </strong>
-                  A-032, 04th Floor, Dosa, Sandhurst Road (West), Mumbai 400 009
+                  7CVV+FH5 - Muwaileh Commercial - Industrial Area - Sharjah -
+                  United Arab Emirates
                 </p>
                 <p>
                   <strong>Email: </strong>
-                  purchase@eamahent.com
-                  <br />
-                  sales@eamahent.com
-                  <br />
-                  info@eamahent.com
+                  safinatalnoor@yahoo.com
                 </p>
                 <p>
-                  <strong>Phone: </strong> +91-22-23744952 / +91-9870601200
+                  <strong>Phone: </strong> +971 6 543 5142
                 </p>
               </ContactDetails>
             </Col>

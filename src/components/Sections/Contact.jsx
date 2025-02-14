@@ -66,8 +66,8 @@ export default function Contact() {
       <div className="">
         <div className="container">
           <HeaderInfo>
-            <h1 style={{ color: "#123011", fontSize: "40px" }}>
-              Have a Hardware Dilemma? Call Us Anytime!
+            <h1 style={{ color: "#4169E1", fontSize: "40px" }}>
+              Have a Dilemma? Call Us Anytime!
             </h1>
             {/* 6c757d */}
             <p style={{ color: "#000", fontSize: "1.2rem" }}>
@@ -229,7 +229,7 @@ export default function Contact() {
                     maxWidth: "220px",
                     color: "#fff",
                     fontSize: "1.1rem",
-                    backgroundColor: "#123011",
+                    backgroundColor: "#862633",
                   }}
                 />
               </SumbitWrapper>
@@ -349,7 +349,7 @@ const ErrorText = styled.span`
 `;
 const ButtonInput = styled.input`
   border: 1px solid #7620ff;
-  background-color: #7620ff;
+  // background-color: #7620ff;
   width: 100%;
   padding: 15px;
   outline: none;

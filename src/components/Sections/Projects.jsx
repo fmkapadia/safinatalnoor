@@ -32,7 +32,7 @@ export default function Projects() {
         <div className="container">
           <HeaderInfo>
             {/* #7bff */}
-            <h1 style={{ color: "#123011", fontSize: "40px" }}>
+            <h1 style={{ color: "#4169E1", fontSize: "40px" }}>
               Our Best Selling Products
             </h1>
             <p style={{ color: "#6c757d", fontSize: "1.2rem" }}>
@@ -102,7 +102,7 @@ export default function Projects() {
               to="/products"
               style={{
                 fontSize: "1.2rem",
-                backgroundColor: "#123011",
+                backgroundColor: "#862633",
                 borderRadius: "1rem",
                 color: "#fff",
                 margin: "3rem",

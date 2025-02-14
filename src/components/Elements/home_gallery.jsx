@@ -242,7 +242,7 @@ class HomeGallery extends Component {
                         <ImageWrapper src={image} alt="work" />
                       </Link>
                       <Content>
-                        <Title style={{ fontSize: "1rem", color: "#206e14" }}>
+                        <Title style={{ fontSize: "1rem", color: "#4169E1" }}>
                           {title}
                         </Title>
                         {/* <Subtitle

@@ -154,7 +154,7 @@ export default function TopNavbar() {
                 activeClass="active"
                 style={{
                   padding: "10px 15px",
-                  backgroundColor: "#4169E1",
+                  backgroundColor: "#862633",
                   color: "#fff",
                   borderRadius: "1rem",
                   fontSize: "1rem",

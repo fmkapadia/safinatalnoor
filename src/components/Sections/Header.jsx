@@ -119,7 +119,7 @@ export default function Header() {
                         to="/products"
                         style={{
                           fontSize: "1rem",
-                          backgroundColor: "#123011",
+                          backgroundColor: "#862633",
                           borderRadius: "1rem",
                           color: "#fff",
                           margin: "1rem",
