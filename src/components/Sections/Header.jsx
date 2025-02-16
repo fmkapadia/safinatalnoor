@@ -179,7 +179,7 @@ export default function Header() {
                   <ImageSlide>
                     <Img className="radius8" src={image.src} alt={image.alt} />
                     <TextOverlay>
-                      <h2>Eamah Entreprenuer</h2>
+                      <h2>Safinat al Noor</h2>
                       <h3>{image.tagLine}</h3>
                       <p>{image.subHead}</p>
                       <div className="row flexCenter">
@@ -187,7 +187,7 @@ export default function Header() {
                           to="/products"
                           style={{
                             fontSize: "1rem",
-                            backgroundColor: "#0397DD",
+                            backgroundColor: "#862633",
                             borderRadius: "1rem",
                             color: "#fff",
                             margin: "1rem",

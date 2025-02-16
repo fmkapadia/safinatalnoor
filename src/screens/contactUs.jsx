@@ -145,10 +145,12 @@ const ContactUs = () => {
                   <StyledHeading>Location</StyledHeading>
 
                   {/* Subtitle/Content */}
-                  <p style={{ marginTop: "10px", marginBottom: "3rem" }}>
-                    7CVV+FH5 - Muwaileh Commercial - Industrial Area - Sharjah -
-                    United Arab Emirates
-                  </p>
+                  <StyledPara>
+                    <p>
+                      7CVV+FH5 - Muwaileh Commercial - Industrial Area - Sharjah
+                      - United Arab Emirates
+                    </p>
+                  </StyledPara>
                 </div>
               </ServiceBoxWrapper>
 
@@ -168,24 +170,24 @@ const ContactUs = () => {
                   >
                     <FaPhoneVolume size={25} />
                   </div>
-
                   {/* Title */}
                   <StyledHeading>Phone</StyledHeading>
-
-                  {/* Subtitle/Content */}
-                  <p style={{ marginTop: "10px", fontSize: "1.2rem" }}>
-                    Connect with us
-                  </p>
-                  <span
-                    style={{
-                      marginTop: "10px",
-                      color: "#000",
-                      fontSize: "1.2rem",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    +971 6 543 5142
-                  </span>
+                  {/* Subtitle/Content */}{" "}
+                  <StyledPara>
+                    <p style={{ marginTop: "10px", fontSize: "1.2rem" }}>
+                      Connect with us
+                    </p>
+                    <span
+                      style={{
+                        marginTop: "10px",
+                        color: "#000",
+                        fontSize: "1.2rem",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      +971 6 543 5142
+                    </span>
+                  </StyledPara>
                 </div>
               </ServiceBoxWrapper>
               <ServiceBoxWrapper>
@@ -212,19 +214,21 @@ const ContactUs = () => {
                     <MdMarkEmailRead size={30} />
                   </div>
                   <StyledHeading>Email</StyledHeading>
-                  <p style={{ marginTop: "10px" }}>
-                    Purchase Inquiry:
-                    <br />
-                    <span
-                      style={{
-                        color: "#000",
-                        fontWeight: "bold",
-                        fontSize: "1rem",
-                      }}
-                    >
-                      safinatalnoor@yahoo.com
-                    </span>
-                  </p>
+                  <StyledPara>
+                    <p style={{ marginTop: "10px" }}>
+                      Purchase Inquiry:
+                      <br />
+                      <span
+                        style={{
+                          color: "#000",
+                          fontWeight: "bold",
+                          fontSize: "1rem",
+                        }}
+                      >
+                        safinatalnoor@yahoo.com
+                      </span>
+                    </p>
+                  </StyledPara>
                   {/* <p style={{ marginTop: "1px" }}>
                     Sales Inquiry:
                     <br />
@@ -408,6 +412,16 @@ const ServiceBox1 = styled.div`
   @media (max-width: 860px) {
     flex-direction: column; /* Stack the boxes on small screens */
     height: auto;
+  }
+`;
+const StyledPara = styled.p`
+  margin-top: 10px;
+  margin-bottom: 3rem;
+  // border: 1px solid black;
+  @media (max-width: 860px) {
+    width: 200px;
+    align-items: start;
+    justify-content: center;
   }
 `;
 const Heading = styled.h2`

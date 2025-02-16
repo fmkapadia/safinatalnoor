@@ -36,17 +36,9 @@ export default function TopNavbar() {
              */}
             <Img src={logo} alt="Safinat al Noor" />
             {/* <Img1 src={eamah_text} alt="Eamah Entreprenure" /> */}
-            <h1
-              style={{
-                marginLeft: "15px",
-                // fontWeight: "bold",
-                fontSize: "2.5rem",
-                color: "#4169E1",
-                fontFamily: "Brush Script MT ",
-              }}
-            >
-              Safinat al Noor
-            </h1>
+            <Heading>
+              <h1>Safinat al Noor</h1>
+            </Heading>
           </RouterLink>
           <BurderWrapper
             className="pointer"
@@ -176,12 +168,16 @@ const Img = styled.img`
   width: 4rem;
   border-radius: 10px;
 `;
-const Img1 = styled.img`
-  width: 16rem;
-  height: 3rem;
+const Heading = styled.h1`
+   marginLeft: 15px,
+                font-size: 2.5rem;
+                color: #4169E1;
+                font-family: Brush Script MT ;
   
    @media (max-width: 540px) {
-    width: 10rem;
+    width: 12rem;
+    font-size:1.5rem;
+    margin-top:2px;
 `;
 const Wrapper = styled.nav`
   width: 100%;

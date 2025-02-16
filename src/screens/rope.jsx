@@ -202,7 +202,7 @@ const Rope = () => {
       >
         <TextOverlay>
           <h2>Our Products</h2>
-          <h3 style={{ fontSize: "2rem" }}>Global Presence, Local Support</h3>
+          <h3 style={{ fontSize: "2rem" }}>Ropes</h3>
           {/* <p>Exceptional solutions for high-volume, high-speed needs</p> */}
           <div className="row flexCenter"></div>
         </TextOverlay>
