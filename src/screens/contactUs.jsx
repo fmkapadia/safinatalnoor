@@ -420,8 +420,8 @@ const StyledPara = styled.p`
   // border: 1px solid black;
   @media (max-width: 860px) {
     width: 200px;
-    align-items: start;
-    justify-content: center;
+    // align-items: start;
+    text-align: start;
   }
 `;
 const Heading = styled.h2`
