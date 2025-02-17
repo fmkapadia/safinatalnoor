@@ -37,7 +37,7 @@ export default function Contact() {
     setErrors(formErrors);
     return Object.keys(formErrors).length === 0;
   };
-  const handleSubmit = (e) => {
+  const handleSubmit2 = (e) => {
     e.preventDefault();
     if (validateForm()) {
       console.log(formData);
@@ -60,7 +60,8 @@ export default function Contact() {
         );
     }
   };
-
+  const handleSubmit = (e) => {
+  }
   return (
     <Wrapper id="contact" style={{ backgroundColor: "#F0FFFF" }}>
       <div className="">
