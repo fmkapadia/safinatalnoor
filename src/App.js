@@ -24,6 +24,7 @@ import GarageTools from "./screens/garageTools.jsx";
 import WaterPumps from "./screens/waterPumps.jsx";
 import WeighingProducts from "./screens/weighingProducts.jsx";
 import Paints from "./screens/paints.jsx";
+import PowerTools from "./screens/powerTools.jsx";
 
 export default function App() {
   return (
@@ -77,6 +78,7 @@ export default function App() {
             element={<WeighingProducts />}
           />
           <Route path="/products/paint-and-accessories" element={<Paints />} />
+          <Route path="/products/power-tools" element={<PowerTools />} />
           {/* Route for Careers */}
         </Routes>
       </Router>

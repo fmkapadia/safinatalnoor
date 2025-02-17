@@ -129,27 +129,6 @@ export default function Header() {
                       </CTAButton>
                     </div>
                   </TextOverlay>
-                  {/* <TextOverlay>
-                    <h2>Eamah Entrepreneur</h2>
-                    <p>
-                      Your Trusted Partner for Pharmaceutical Equipment
-                      Components(Machinery Spare Parts)
-                    </p>
-                    <div className="row flexCenter">
-                      <CTAButton
-                        to="/products/equipments"
-                        style={{
-                          fontSize: "1rem",
-                          backgroundColor: "#0397DD",
-                          borderRadius: "1rem",
-                          color: "#fff",
-                          margin: "1rem",
-                        }}
-                      >
-                        Explore Our Products...
-                      </CTAButton>
-                    </div>
-                  </TextOverlay> */}
                 </ImageSlide>
               </div>
             ))}

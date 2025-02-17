@@ -97,7 +97,7 @@ const ProductList = ({ products }) => {
           </Description>
         </CardWrapper>
       ))}
-      <BackButton onClick={() => navigate("/products")}>Go Back</BackButton>
+      {/* <BackButton onClick={() => navigate("/products")}>Go Back</BackButton> */}
       {isOpen && (
         <Lightbox
           mainSrc={products[photoIndex].image}

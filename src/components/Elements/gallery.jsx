@@ -166,7 +166,7 @@ class Work extends Component {
         },
         {
           image: sanitary,
-          title: "Sanitary ",
+          title: "Sanitary",
         },
         {
           image: fasteners,

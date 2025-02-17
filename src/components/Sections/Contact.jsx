@@ -43,8 +43,8 @@ export default function Contact() {
       console.log(formData);
       emailjs
         .send(
-          "service_yf9r9g4", // Replace with your EmailJS service ID
-          "template_x7uggzo", // Replace with your EmailJS template ID
+          "service_foqn1s7", // Replace with your EmailJS service ID
+          "template_vxb2yn6", // Replace with your EmailJS template ID
           formData, // Form data to send
           "R8lahl78KsGy5i6Mj" // Replace with your EmailJS user ID
         )
@@ -337,7 +337,7 @@ const FormWrapper = styled.form`
 `;
 const ImageContainer = styled.div`
   // border: 1px solid black;
-  max-width: 200px;
+  // max-width: 200px;
   @media (max-width: 768px) {
     flex-direction: column; // Stack images vertically on smaller screens
     align-items: center; // Center images
@@ -365,11 +365,15 @@ const ButtonInput = styled.input`
 `;
 const ContactImgBox = styled.div`
   margin: 10px 30px 10px 50px;
-  // border: 1px solid black;
   object-fit: cover;
+  img {
+    width: 100%;
+    height: auto;
+    display: block; /* Prevents extra spacing under the image */
+  }
   @media (max-width: 768px) {
-    max-width: 100%; /* Allow the image to take full width */
-    margin: 10px auto; /* Center the image */
+    width: 90%; /* Allow the image to take full width */
+    margin: 10px auto;
   }
 `;
 const SumbitWrapper = styled.div`
