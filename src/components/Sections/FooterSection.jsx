@@ -155,7 +155,8 @@ class FooterSection extends Component {
                 </h1>
               </Link>
               <p className="mt-4" style={{ fontSize: "1.2rem", color: "#000" }}>
-                Built to Last, Priced to Save.
+                Your One-Stop Hardware Destination–Quality Tools, Expert Advice,
+                and Trusted Service for Every Project!
               </p>
               <SocialIconList>
                 {/* "facebook", "instagram", "twitter", */}
