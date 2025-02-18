@@ -15,7 +15,7 @@ const CounterContainer = styled.div`
   gap: 2rem;
   text-align: center;
   min-height: 40vh;
-  background: #f4f4f9;
+  // background: #f4f4f9;
   flex-wrap: wrap;
   padding: 2rem;
 

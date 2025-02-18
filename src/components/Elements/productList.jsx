@@ -84,7 +84,7 @@ const ProductList = ({ products }) => {
               setIsOpen(true);
             }}
           />
-          <Price>AED {product.price}</Price>
+          {/* <Price>AED {product.price}</Price> */}
           <Description>
             {expanded[index]
               ? product.description

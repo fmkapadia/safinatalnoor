@@ -70,7 +70,7 @@ export default function Services() {
           <ClientSlider />
         </div>
       </div>
-      <div className="lightBg" style={{ padding: "60px 0" }}>
+      <div className="" style={{ padding: "60px 0", background: "#fff" }}>
         <div className="container">
           <HeaderInfo>
             <h1 style={{ color: "#4169E1", fontSize: "40px" }}>
@@ -283,8 +283,8 @@ const HeaderInfo = styled.div`
   }
 `;
 const Advertising = styled.div`
-  margin: 80px 0;
-  padding: 100px 0;
+  // margin: 80px 0;
+  padding: 70px 0;
   position: relative;
   @media (max-width: 1160px) {
     padding: 0px 0 40px 0;

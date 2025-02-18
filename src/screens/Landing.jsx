@@ -62,7 +62,7 @@ export default function Landing() {
       // ]}
       />
       <Services />
-      <Projects />
+      {/* <Projects /> */}
       <StatisticCounter />
       {/* <Blog /> */}
       {/* <Pricing /> */}

@@ -171,6 +171,7 @@ export default function ClientSlider() {
 const LogoWrapper = styled.div`
   width: 100%;
   cursor: pointer;
+  height: 11rem;
   :focus-visible {
     outline: none;
     border: 0px;
