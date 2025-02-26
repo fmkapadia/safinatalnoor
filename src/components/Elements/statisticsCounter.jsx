@@ -14,11 +14,11 @@ const CounterContainer = styled.div`
   align-items: center;
   gap: 2rem;
   text-align: center;
-  min-height: 40vh;
+  min-height: 30vh;
   // background: #f4f4f9;
   flex-wrap: wrap;
   padding: 2rem;
-
+  padding-top: 0rem;
   @media (max-width: 768px) {
     flex-direction: column; /* Stack items in a column on smaller screens */
     gap: 1.5rem;

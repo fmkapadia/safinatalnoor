@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 import Dots from "../../assets/svg/Dots";
 import home6 from "../../assets/images/home6.jpg";
-import home7 from "../../assets/images/home7.jpg";
-import home8 from "../../assets/images/home8.jpg";
-import home9 from "../../assets/images/home9.jpg";
+import home7 from "../../assets/images/branch1.jpeg";
+import home8 from "../../assets/images/branch2.jpeg";
+// import home9 from "../../assets/images/home9.jpg";
 
 export default function Services() {
   const [isVisibleServiceBox, setIsVisibleServiceBox] = useState(false);
@@ -65,18 +65,18 @@ export default function Services() {
 
   return (
     <Wrapper id="services">
-      <div className="whiteBg" style={{ padding: "50px 0", marginTop: "60px" }}>
+      <div className="whiteBg" style={{ padding: "20px 0", marginTop: "40px" }}>
         <div className="container">
           <ClientSlider />
         </div>
       </div>
-      <div className="" style={{ padding: "60px 0", background: "#fff" }}>
+      <div className="" style={{ padding: "40px 0", background: "#fff" }}>
         <div className="container">
           <HeaderInfo>
             <h1 style={{ color: "#4169E1", fontSize: "40px" }}>
               What We Value most
             </h1>
-            <p style={{ color: "#000", fontSize: "1.1rem" }}>
+            <p style={{ color: "#000", fontSize: "1.2rem" }}>
               Some key values that we follow especially those involved in repair
               services or customer support:
             </p>
@@ -182,19 +182,19 @@ export default function Services() {
                 <AddRightInner>
                   <div className="flexNullCenter">
                     <AddImgWrapp1 className="flexCenter">
-                      <img src={home6} alt="office" />
+                      <img src={home7} alt="office" />
                     </AddImgWrapp1>
                     <AddImgWrapp2>
-                      <img src={home7} alt="office" />
+                      <img src={home8} alt="office" />
                     </AddImgWrapp2>
                   </div>
                   <div className="flexNullCenter">
                     <AddImgWrapp3>
-                      <img src={home8} alt="office" />
+                      <img src={home6} alt="office" />
                     </AddImgWrapp3>
-                    <AddImgWrapp4>
+                    {/* <AddImgWrapp4>
                       <img src={home9} alt="office" />
-                    </AddImgWrapp4>
+                    </AddImgWrapp4> */}
                   </div>
                 </AddRightInner>
               </AddRight>
@@ -248,6 +248,10 @@ const CTAButton = styled(Link)`
     color: "#fff" !important;
     transform: scale(1.05);
   }
+  @media (max-width: 860px) {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
 `;
 const Wrapper = styled.section`
   width: 100%;
@@ -283,8 +287,8 @@ const HeaderInfo = styled.div`
   }
 `;
 const Advertising = styled.div`
-  // margin: 80px 0;
-  padding: 70px 0;
+  // margin-top: 80px;
+  padding: 100px 0;
   position: relative;
   @media (max-width: 1160px) {
     padding: 0px 0 40px 0;
@@ -332,49 +336,85 @@ const AddRight = styled.div`
   top: 70px;
   right: 0;
   @media (max-width: 860px) {
+    margin-top: 5rem;
     width: 80%;
     position: relative;
     order: 1;
     top: -40px;
+    flex-direction: column;
   }
 `;
 const AddRightInner = styled.div`
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  div {
+    display: flex;
+    justify-content: center; /* Centers images horizontally */
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    img {
+      width: 100%; /* Ensures images don't exceed their container */
+      max-width: 300px; /* Prevents images from becoming too large */
+    }
+  }
 `;
+
 const AddImgWrapp1 = styled.div`
-  width: 48%;
+  width: 40%;
   margin: 0 6% 10px 6%;
   img {
     width: 100%;
-    height: auto;
+    height: 170px;
     border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 768px) {
+    margin: 10%;
   }
 `;
 const AddImgWrapp2 = styled.div`
-  width: 30%;
-  margin: 0 5% 10px 5%;
+  width: 40%;
+  // margin: 0 5% 10px 5%;
   img {
     width: 100%;
-    height: auto;
+    height: 170px;
     border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
+  @media (max-width: 768px) {
+    margin: 10%;
+  }
 `;
 const AddImgWrapp3 = styled.div`
-  width: 20%;
-  margin-left: 40%;
+  width: 40%;
+  // margin-left: 40%;
   img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 250px;
     border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 768px) {
+    margin: 10%;
   }
 `;
 const AddImgWrapp4 = styled.div`
@@ -387,6 +427,9 @@ const AddImgWrapp4 = styled.div`
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 768px) {
+    margin: 10%;
   }
 `;
 const DotsWrapper = styled.div`

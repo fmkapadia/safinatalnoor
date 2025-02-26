@@ -7,7 +7,7 @@ import products from "../assets/images/products.jpg";
 import ProjectBox from "../components/Elements/ProjectBox";
 import FeatureGallery from "../components/Elements/featureGallery";
 import FeatureGallery2 from "../components/Elements/feturedGallery2";
-
+import Featured from "../components/Sections/featured";
 import Footer from "../components/Sections/Footer";
 import FooterSection from "../components/Sections/FooterSection";
 import { Container, Row, Col } from "reactstrap";
@@ -201,12 +201,10 @@ const TextOverlay = styled.div`
 },
 `;
 
-const projectsData = [
-  { image: f1, title: "Fans" },
-];
+const projectsData = [{ image: f1, title: "Fans" }];
 const projectsData1 = [
   { image: f3, title: "Fans" },
-  { image: f2, title: "Garage Tools" }
+  { image: f2, title: "Garage Tools" },
 ];
 const ProductsEquipments = () => {
   useEffect(() => {
@@ -218,10 +216,11 @@ const ProductsEquipments = () => {
       <section
         className=""
         style={{
+          backgroundImage: `url(${products})`,
           backgroundColor: "#E5E4E2",
-          backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "200px",
+          backgroundSize: "cover",
+          height: "500px",
           width: "100vw",
           marginTop: "60px",
           position: "relative",
@@ -229,48 +228,16 @@ const ProductsEquipments = () => {
         }}
       >
         <TextOverlay>
-          <h2>Our Products</h2>
-          <h3 style={{ fontSize: "2rem" }}>Global Presence, Local Support</h3>
+          <h2>Explore Our Collection</h2>
+          <h3 style={{ fontSize: "2rem" }}>Get Visual Tour Of Our Products</h3>
           {/* <p>Exceptional solutions for high-volume, high-speed needs</p> */}
           <div className="row flexCenter"></div>
         </TextOverlay>
         <div className="bg-overlay"></div>
       </section>
 
-   <FeatureGallery projects={projectsData} />
-      {/* <SliderImage
-        sliderImages={[
-          {
-            src: b8,
-            alt: "Image 1",
-            tagLine: "Our Products",
-            subHead:
-              "Exceptional solutions for high-volume and high-speed needs",
-          },
-          {
-            src: b9,
-            alt: "Image 2",
-            tagLine: "Our Products",
-            subHead:
-              "Exceptional solutions for high-volume and high-speed needs",
-          },
+      {/* <FeatureGallery projects={projectsData} /> */}
 
-          {
-            src: b4,
-            alt: "Image 4",
-            tagLine: "Our Products",
-            subHead:
-              "Exceptional solutions for high-volume and high-speed needs",
-          },
-          {
-            src: b3,
-            alt: "Image 5",
-            tagLine: "Our Products",
-            subHead:
-              "Exceptional solutions for high-volume and high-speed needs",
-          },
-        ]}
-      /> */}
       <SvgWrapper>
         <Shape
           viewBox="0 0 2880 48"
@@ -284,7 +251,8 @@ const ProductsEquipments = () => {
         </Shape>
       </SvgWrapper>
       <Work />
-      <FeatureGallery2 projects={projectsData1}  />
+      {/* <FeatureGallery2 projects={projectsData1}  /> */}
+      <Featured />
 
       <FooterSection />
     </React.Fragment>

@@ -173,7 +173,7 @@ const Heading = styled.h1`
                 font-size: 2.5rem;
                 color: #4169E1;
                 font-family: Brush Script MT ;
-  
+  // border:1px solid black;
    @media (max-width: 540px) {
     width: 12rem;
     font-size:1.5rem;

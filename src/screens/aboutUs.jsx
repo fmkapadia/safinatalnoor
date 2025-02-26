@@ -41,35 +41,7 @@ const AboutUs = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const toggle = (tab) => {
-    this.setState({ activeTab: tab });
-  };
-  const tabContent = {
-    1: {
-      img: p1,
-      title: "Cadmach 8mm-D tooling",
-      description:
-        "This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'.",
-    },
-    2: {
-      img: p2,
-      title: "Cadmach 12mm-D-BI layer",
-      description:
-        "Database analysis helps improve data integrity and efficiency. Dummy text is also known as 'fill text'.",
-    },
-    3: {
-      img: header,
-      title: "Server Security",
-      description:
-        "Server security ensures data protection from external threats. Dummy text is also known as 'fill text'.",
-    },
-    4: {
-      img: header,
-      title: "Web Designing",
-      description:
-        "Web designing enhances the user interface and user experience. Dummy text is also known as 'fill text'.",
-    },
-  };
+
   return (
     <>
       <TopNavbar />
@@ -180,9 +152,10 @@ const AboutUs = () => {
                   <h4
                     className="title mb-4"
                     style={{
-                      fontSize: "1.75rem",
+                      fontSize: "2.5rem",
                       marginBottom: "20px",
                       fontWeight: "600",
+                      color: "#4169e1",
                     }}
                   >
                     Who are we?
@@ -208,7 +181,7 @@ const AboutUs = () => {
                       display: "inline-block",
                       padding: "10px 20px",
                       color: "#fff",
-                      backgroundColor: "#4169E1",
+                      backgroundColor: "#862633",
                       borderRadius: "10px",
                       textDecoration: "none",
                       marginTop: "20px",
@@ -225,10 +198,10 @@ const AboutUs = () => {
 
       <div
         style={{
-          fontSize: "40px",
+          fontSize: "2.5rem",
           marginBottom: "20px",
-          fontWeight: "extraBold",
-          color: "#000",
+          fontWeight: "600",
+          color: "#4169e1",
           textAlign: "center",
         }}
       >

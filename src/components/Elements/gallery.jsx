@@ -238,7 +238,7 @@ class Work extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <React.Fragment>
-        <SectionWrapper>
+        <SectionWrapper className="lightBg">
           <Container>
             <Row style={{ paddingBottom: "10px" }}>
               {this.state.projects.map(({ title, image, subtitle }, key) => (

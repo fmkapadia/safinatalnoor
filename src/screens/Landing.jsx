@@ -38,20 +38,17 @@ export default function Landing() {
   const projectsData1 = [
     { image: f1, title: "" },
     { image: f2, title: "" },
-    { image: f3, title: "" }
-
+    { image: f3, title: "" },
   ];
   const projectsData3 = [
     { image: f4, title: "" },
     { image: f5, title: "" },
-    { image: f6, title: "" }
-
+    { image: f6, title: "" },
   ];
 
   const projectsData2 = [
     { image: f7, title: "" },
     { image: f8, title: "" },
-
   ];
   return (
     <>
@@ -91,17 +88,15 @@ export default function Landing() {
       //   },
       // ]}
       />
-            <FeatureGallery3 projects={projectsData1}  />
-
+      {/* <FeatureGallery3 projects={projectsData1}  /> */}
       <Services />
       <StatisticCounter />
-      <FeatureGallery3 projects={projectsData3}  />
-
+      {/* <FeatureGallery3 projects={projectsData3}  /> */}
       {/* <Blog /> */}
       {/* <Pricing /> */}
-{/*       <Contact />
- */}      <FeatureGallery2 projects={projectsData2}  />
-
+      {/*       <Contact />
+//  */}{" "}
+      {/* <FeatureGallery2 projects={projectsData2} /> */}
       {/* <ImageTextComponent
         image={header}
         text="USA company description."
