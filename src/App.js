@@ -26,6 +26,7 @@ import WeighingProducts from "./screens/weighingProducts.jsx";
 import Paints from "./screens/paints.jsx";
 import PowerTools from "./screens/powerTools.jsx";
 import HandTools from "./screens/handTools.jsx";
+import Electricals from "./screens/electricals.jsx";
 
 export default function App() {
   return (
@@ -40,6 +41,8 @@ export default function App() {
       </Helmet> */}
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -81,9 +84,19 @@ export default function App() {
           <Route path="/products/paint-and-accessories" element={<Paints />} />
           <Route path="/products/power-tools" element={<PowerTools />} />
           <Route path="/products/hand-tools" element={<HandTools />} />
+          <Route path="/products/electricals" element={<Electricals />} />
+
           {/* Route for Careers */}
         </Routes>
       </Router>
+      <a
+        href="https://wa.me/0543538694"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
       {/* <Landing /> */}
     </>
   );

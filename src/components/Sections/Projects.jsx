@@ -14,12 +14,12 @@ import ProjectImg3 from "../../assets/img/projects/3.png";
 import ProjectImg4 from "../../assets/img/projects/4.png";
 import ProjectImg5 from "../../assets/img/projects/5.png";
 import ProjectImg6 from "../../assets/img/projects/6.png";
-import p1 from "../../assets/img/products/Compression/p1.png";
-import p2 from "../../assets/img/products/Compression/p2.png";
-import p3 from "../../assets/img/products/Compression/p3.PNG";
-import p4 from "../../assets/img/products/Compression/p4.jpg";
-import p5 from "../../assets/img/products/Compression/p5.jpg";
-import p6 from "../../assets/img/products/Compression/p6.png";
+import p1 from "../../assets/images/featured/adhesive.jpeg";
+import p2 from "../../assets/images/featured/hardwaretr.jpeg";
+import p3 from "../../assets/images/featured/packingmaterial.jpeg";
+import p4 from "../../assets/images/featured/adhesive.jpeg";
+import p5 from "../../assets/images/featured/adhesive.jpeg";
+import p6 from "../../assets/images/featured/adhesive.jpeg";
 import p7 from "../../assets/img/products/Compression/p7.jpg";
 import p8 from "../../assets/img/products/Compression/p8.jpg";
 import AddImage2 from "../../assets/img/add/add2.png";
@@ -30,20 +30,11 @@ export default function Projects() {
     <Wrapper id="projects">
       <div className="whiteBg">
         <div className="container">
-          <HeaderInfo>
-            {/* #7bff */}
-            <h1 style={{ color: "#4169E1", fontSize: "40px" }}>
-              Our Best Selling Products
-            </h1>
-            <p style={{ color: "#6c757d", fontSize: "1.2rem" }}>
-              Our unwavering commitment to quality guarantees a perfect fit for
-              hardware industry. Over the years, we've earned our customers'
-              trust by providing them with reliable, long-lasting products.
-            </p>
-          </HeaderInfo>
+         
           {/* <ImageCarousel /> */}
-          <HomeGallery />
-          {/* <div className="row textCenter">
+{/*           <HomeGallery />
+ */}        
+    <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={p1}
@@ -94,7 +85,7 @@ export default function Projects() {
                 // action={() => alert("clicked")}
               />
             </div>
-          </div> */}
+          </div> 
 
           <div className="row flexCenter">
             {/* #0397DD */}

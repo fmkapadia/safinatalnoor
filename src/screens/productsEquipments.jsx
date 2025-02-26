@@ -4,17 +4,22 @@ import Portfolio from "../assets/img/banner12.png";
 import Work from "../components/Elements/gallery";
 import TopNavbar from "../components/Nav/TopNavbar";
 import products from "../assets/images/products.jpg";
+import ProjectBox from "../components/Elements/ProjectBox";
+import FeatureGallery from "../components/Elements/featureGallery";
+import FeatureGallery2 from "../components/Elements/feturedGallery2";
+
 import Footer from "../components/Sections/Footer";
 import FooterSection from "../components/Sections/FooterSection";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import contactus from "../assets/img/banner/banner4.png";
 import banner8 from "../assets/img/banner/productbanner.png";
-import b4 from "../assets/img/banner/Productsbanner1.jpeg";
-import b3 from "../assets/img/banner/Productsbanner2.jpeg";
-import b8 from "../assets/img/banner/Productsbanner3.jpeg";
-import b9 from "../assets/img/banner/Productsbanner4.jpeg";
-import SliderImage from "../components/Elements/sliderImages";
+import b1 from "../assets/images/featured/equipments.jpeg";
+import b2 from "../assets/images/featured/powertools.jpeg";
+import b3 from "../assets/images/featured/weighingtool.jpeg";
+import f1 from "../assets/images/featured/equipments.jpeg";
+import f2 from "../assets/images/featured/powertools.jpeg";
+import f3 from "../assets/images/featured/weighingtool.jpeg";
 // Styled components
 // const BreadcrumbContainer = styled.div`
 //   position: absolute;
@@ -195,6 +200,14 @@ const TextOverlay = styled.div`
     }
 },
 `;
+
+const projectsData = [
+  { image: f1, title: "Fans" },
+];
+const projectsData1 = [
+  { image: f3, title: "Fans" },
+  { image: f2, title: "Garage Tools" }
+];
 const ProductsEquipments = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -205,12 +218,12 @@ const ProductsEquipments = () => {
       <section
         className=""
         style={{
-          backgroundImage: `url(${products})`,
+          backgroundColor: "#E5E4E2",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "600px",
+          height: "200px",
           width: "100vw",
-          marginTop: "0px",
+          marginTop: "60px",
           position: "relative",
           color: "#ffffff",
         }}
@@ -223,6 +236,8 @@ const ProductsEquipments = () => {
         </TextOverlay>
         <div className="bg-overlay"></div>
       </section>
+
+   <FeatureGallery projects={projectsData} />
       {/* <SliderImage
         sliderImages={[
           {
@@ -269,6 +284,8 @@ const ProductsEquipments = () => {
         </Shape>
       </SvgWrapper>
       <Work />
+      <FeatureGallery2 projects={projectsData1}  />
+
       <FooterSection />
     </React.Fragment>
   );

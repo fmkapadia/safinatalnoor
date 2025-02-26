@@ -212,10 +212,10 @@ class Work extends Component {
           image: handTools,
           title: "Hand Tools",
         },
-        {
+        /* {
           image: gt,
           title: "  Garden Accessories",
-        },
+        }, */
         {
           image: sanitary,
           title: "Electricals",

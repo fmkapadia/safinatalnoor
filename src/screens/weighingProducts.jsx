@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Portfolio from "../assets/img/banner12.png";
 import Work from "../components/Elements/gallery";
 import TopNavbar from "../components/Nav/TopNavbar";
-import products from "../assets/images/products.jpg";
+import products from "../assets/images/featured/weighingtool.jpeg";
 import Footer from "../components/Sections/Footer";
 import FooterSection from "../components/Sections/FooterSection";
 import ProductList from "../components/Elements/productList";
@@ -199,13 +199,12 @@ const WeighingProducts = () => {
       <section
         className=""
         style={{
-          //   backgroundImage: `url(${products})`,
           backgroundColor: "#E5E4E2",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "600px",
+          height: "300px",
           width: "100vw",
-          marginTop: "0px",
+          marginTop: "60px",
           position: "relative",
           color: "#ffffff",
         }}

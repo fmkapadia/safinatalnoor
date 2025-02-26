@@ -19,10 +19,40 @@ import b8 from "../assets/img/banner/Home - carousel banner 3.png";
 import b9 from "../assets/img/banner/Home - carousel banner 4.png";
 import b10 from "../assets/img/banner/aboutusbanner3.png";
 import StatisticCounter from "../components/Elements/statisticsCounter";
+import FeatureGallery3 from "../components/Elements/featuredGallery3";
+import FeatureGallery2 from "../components/Elements/feturedGallery2";
+
+import f1 from "../assets/images/featured/adhesive.jpeg";
+import f2 from "../assets/images/featured/packingmaterial.jpeg";
+import f3 from "../assets/images/featured/weighingtool.jpeg";
+import f4 from "../assets/images/featured/meters.jpeg";
+import f5 from "../assets/images/featured/hardwaretr.jpeg";
+import f6 from "../assets/images/featured/powertools.jpeg";
+import f7 from "../assets/images/featured/toolset.jpeg";
+import f8 from "../assets/images/featured/pumps.jpeg";
 export default function Landing() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const projectsData1 = [
+    { image: f1, title: "" },
+    { image: f2, title: "" },
+    { image: f3, title: "" }
+
+  ];
+  const projectsData3 = [
+    { image: f4, title: "" },
+    { image: f5, title: "" },
+    { image: f6, title: "" }
+
+  ];
+
+  const projectsData2 = [
+    { image: f7, title: "" },
+    { image: f8, title: "" },
+
+  ];
   return (
     <>
       <TopNavbar />
@@ -61,12 +91,16 @@ export default function Landing() {
       //   },
       // ]}
       />
+            <FeatureGallery3 projects={projectsData1}  />
+
       <Services />
-      {/* <Projects /> */}
       <StatisticCounter />
+      <FeatureGallery3 projects={projectsData3}  />
+
       {/* <Blog /> */}
       {/* <Pricing /> */}
-      <Contact />
+{/*       <Contact />
+ */}      <FeatureGallery2 projects={projectsData2}  />
 
       {/* <ImageTextComponent
         image={header}

@@ -33,7 +33,9 @@ import p19 from "../assets/images/paints/sprayPaintBlack.webp";
 // import p20 from "../assets/images/paints/wallPaintKit.webp";
 // import p21 from "../assets/images/paints/white3pcs.webp";
 import p22 from "../assets/images/paints/whiteCable.webp";
-
+import FeatureGallery from "../components/Elements/featureGallery";
+import f1 from "../assets/images/featured/adhesive.jpeg";
+import f2 from "../assets/images/featured/safetyvest.jpeg";
 const SvgWrapper = styled.div`
   position: relative;
   overflow: hidden;
@@ -224,6 +226,12 @@ const Paints = () => {
         "White Cable Raceway On-Wall Cord Cover | 1 Meter Medium Paintable Channel)",
     },
   ];
+
+   
+const projectsData = [
+  { image: f1, title: "" },
+
+];
   return (
     <React.Fragment>
       <TopNavbar />
@@ -234,9 +242,9 @@ const Paints = () => {
           backgroundColor: "#E5E4E2",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "600px",
+          height: "250px",
           width: "100vw",
-          marginTop: "0px",
+          marginTop: "60px",
           position: "relative",
           color: "#ffffff",
         }}

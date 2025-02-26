@@ -130,9 +130,9 @@ const WaterPumps = () => {
           backgroundColor: "#E5E4E2",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "600px",
+          height: "300px",
           width: "100vw",
-          marginTop: "0px",
+          marginTop: "60px",
           position: "relative",
           color: "#ffffff",
         }}
