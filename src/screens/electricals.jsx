@@ -70,8 +70,8 @@ import p57 from "../assets/images/electricals1/fire blanket roll.avif";
 import p58 from "../assets/images/electricals1/sparta Mallets, white rubber, fberglass 2-component handle.avif";
 import p59 from "../assets/images/electricals1/sparta Nailing hammer, one-piece forged, 2-component handle.avif";
 import FeatureGallery from "../components/Elements/feturedGallery2";
-import f1 from "../assets/images/featured/safetyshoes.jpeg";
-import f2 from "../assets/images/featured/safetyvest.jpeg";
+import f1 from "../assets/images/featured/safetyshoes.JPG";
+import f2 from "../assets/images/featured/safetyvest.JPG";
 
 const SvgWrapper = styled.div`
   position: relative;
@@ -141,8 +141,7 @@ const GarageTools = () => {
     {
       image: p1,
       price: "28.80",
-      description:
-        "18V STANLEY® FATMAX® V20 Jobsite Blower",
+      description: "18V STANLEY® FATMAX® V20 Jobsite Blower",
     },
     // {
     //   image: p2,
@@ -158,7 +157,8 @@ const GarageTools = () => {
     {
       image: p4,
       price: "259.20",
-      description: "Air Tool Kit 7Pcs With Carry Bag(Air gun,Inflating gun,Spray gun,3m Spiral Hose",
+      description:
+        "Air Tool Kit 7Pcs With Carry Bag(Air gun,Inflating gun,Spray gun,3m Spiral Hose",
     },
     {
       image: p5,
@@ -169,13 +169,13 @@ const GarageTools = () => {
     {
       image: p6,
       price: "33.60",
-      description: "Michelin Air Compressor Vertical Oil Free 50L 2HP 1PH 10Bar 220L",
+      description:
+        "Michelin Air Compressor Vertical Oil Free 50L 2HP 1PH 10Bar 220L",
     },
     {
       image: p7,
       price: "326.40",
-      description:
-        "STANLEY V20 18V 125mm angle grinder with 2.0ah 1 battery",
+      description: "STANLEY V20 18V 125mm angle grinder with 2.0ah 1 battery",
     },
     {
       image: p8,
@@ -192,7 +192,8 @@ const GarageTools = () => {
     {
       image: p10,
       price: "57.60",
-      description: "STANLEY V20 18V brushless 125mm angle grinder with 4.0ah 2 battery",
+      description:
+        "STANLEY V20 18V brushless 125mm angle grinder with 4.0ah 2 battery",
     },
     {
       image: p11,
@@ -200,23 +201,21 @@ const GarageTools = () => {
       description:
         "STANLEY V20 18V brushless impact driver with 2. 0AH 2 Batteries and kit box",
     },
-     {
-       image: p12,
-       price: "157.50",
-       description:
+    {
+      image: p12,
+      price: "157.50",
+      description:
         "STANLEY V20 18V brushless sos plus drill with 4.0AH 2 Batteries and kit box",
-     },
+    },
     {
       image: p13,
       price: "43.20",
-      description:
-        "STANLEY® FATMAX® V20 18V Cordless Jigsaw Combo Kit",
+      description: "STANLEY® FATMAX® V20 18V Cordless Jigsaw Combo Kit",
     },
     {
       image: p14,
       price: "24.96",
-      description:
-        "Stanley Air Compressor 24L 2.0HP 1PH 8Bar lubricated",
+      description: "Stanley Air Compressor 24L 2.0HP 1PH 8Bar lubricated",
     },
     {
       image: p15,
@@ -231,27 +230,23 @@ const GarageTools = () => {
     {
       image: p17,
       price: "33.60",
-      description:
-        "Stanley Air Compressor 50L Vertical Tank 2",
+      description: "Stanley Air Compressor 50L Vertical Tank 2",
     },
-    
+
     {
       image: p19,
       price: "86.40",
-      description:
-        "Stanley Air Dusting Gun",
+      description: "Stanley Air Dusting Gun",
     },
     {
       image: p20,
       price: "33.60",
-      description:
-        "Stanley Inflating Gun",
+      description: "Stanley Inflating Gun",
     },
     {
       image: p21,
       price: "216.00",
-      description:
-        "Stanley Spiral Hose with Fittings",
+      description: "Stanley Spiral Hose with Fittings",
     },
     {
       image: p22,
@@ -262,14 +257,12 @@ const GarageTools = () => {
     {
       image: p23,
       price: "62.40",
-      description:
-        "94 Piece Socket Wrench Set",
+      description: "94 Piece Socket Wrench Set",
     },
     {
       image: p24,
       price: "336.00",
-      description:
-        "CHEMICAL SPILL KIT",
+      description: "CHEMICAL SPILL KIT",
     },
     {
       image: p25,
@@ -279,8 +272,7 @@ const GarageTools = () => {
     {
       image: p26,
       price: "86.40",
-      description:
-        "DISPOSABLE CLIP CAP",
+      description: "DISPOSABLE CLIP CAP",
     },
     {
       image: p27,
@@ -292,41 +284,35 @@ const GarageTools = () => {
       price: "106.56",
       description: "Folding Hex, SAE-MetricTorx",
     },
-     {
-       image: p29,
-       price: "33.60",
-       description:
-         "Inertialess sledge hammer",
-     },
+    {
+      image: p29,
+      price: "33.60",
+      description: "Inertialess sledge hammer",
+    },
     {
       image: p30,
       price: "2640.00",
-      description:
-        "LEATHER WELDING LEG GUARD Armstrong SLG",
+      description: "LEATHER WELDING LEG GUARD Armstrong SLG",
     },
     {
       image: p31,
       price: "86.40",
-      description:
-        "MULTI DOUBLE PALM LEATHER GLOVES",
+      description: "MULTI DOUBLE PALM LEATHER GLOVES",
     },
     {
       image: p32,
       price: "936.00",
-      description:
-        "NON VENTED HJK",
+      description: "NON VENTED HJK",
     },
     {
       image: p33,
       price: "24.00",
-      description:
-        "OIL SORBENT ROLL",
+      description: "OIL SORBENT ROLL",
     },
     {
       image: p34,
       price: "14.40",
-      description:
-        "REFLECTIVE NET TYPE VEST 35 GSM Workland FPS",
+      description: "REFLECTIVE NET TYPE VEST 35 GSM Workland FPS",
     },
     {
       image: p35,
@@ -347,8 +333,7 @@ const GarageTools = () => {
     {
       image: p38,
       price: "816.00",
-      description:
-        "Sparta Mallets, black rubber, fberglass 2-component handle",
+      description: "Sparta Mallets, black rubber, fberglass 2-component handle",
     },
     {
       image: p39,
@@ -368,14 +353,12 @@ const GarageTools = () => {
     {
       image: p42,
       price: "892.80",
-      description:
-        "Vaultex ABS HELMET MOUNTED EAR MUFF SUP",
+      description: "Vaultex ABS HELMET MOUNTED EAR MUFF SUP",
     },
     {
       image: p43,
       price: "24.00",
-      description:
-        "Vaultex INSULATED PLASTIC EAR MUF",
+      description: "Vaultex INSULATED PLASTIC EAR MUF",
     },
     {
       image: p44,
@@ -390,14 +373,12 @@ const GarageTools = () => {
     {
       image: p46,
       price: "33.60",
-      description:
-        "Vaultex REFLECTIVE TSHIRT",
+      description: "Vaultex REFLECTIVE TSHIRT",
     },
     {
       image: p47,
       price: "14.40",
-      description:
-        "Vaultex REUSABLE CORDED EARPLUG",
+      description: "Vaultex REUSABLE CORDED EARPLUG",
     },
     {
       image: p48,
@@ -412,8 +393,7 @@ const GarageTools = () => {
     {
       image: p50,
       price: "432.00",
-      description:
-        "Vaultex STEEL TOE STEEL PLATE DGM S5 STANDARDS",
+      description: "Vaultex STEEL TOE STEEL PLATE DGM S5 STANDARDS",
     },
     {
       image: p51,
@@ -428,14 +408,12 @@ const GarageTools = () => {
     {
       image: p53,
       price: "115.20",
-      description:
-        "Vitaly 12V Heavy Duty Double Cylinder Air Compressor",
+      description: "Vitaly 12V Heavy Duty Double Cylinder Air Compressor",
     },
     {
       image: p54,
       price: "2880.00",
-      description:
-        "Warning post IMA",
+      description: "Warning post IMA",
     },
     {
       image: p55,
@@ -445,8 +423,7 @@ const GarageTools = () => {
     {
       image: p56,
       price: "33.60",
-      description:
-        "facesheild ratchet head gear",
+      description: "facesheild ratchet head gear",
     },
     {
       image: p57,
@@ -461,15 +438,14 @@ const GarageTools = () => {
     {
       image: p59,
       price: "2928.00",
-      description: "sparta Nailing hammer, one-piece forged, 2-component handle",
+      description:
+        "sparta Nailing hammer, one-piece forged, 2-component handle",
     },
   ];
 
-  
-const projectsData = [
+  const projectsData = [
     { image: f1, title: "" },
     { image: f2, title: "" },
-
   ];
   return (
     <React.Fragment>
@@ -496,7 +472,7 @@ const projectsData = [
         </TextOverlay>
         <div className="bg-overlay"></div>
       </section>
-<FeatureGallery projects={projectsData} />
+      <FeatureGallery projects={projectsData} />
       <SvgWrapper>
         <Shape
           viewBox="0 0 2880 48"

@@ -41,7 +41,10 @@ export default function App() {
       </Helmet> */}
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+        />
 
         <link
           rel="preconnect"
@@ -85,12 +88,11 @@ export default function App() {
           <Route path="/products/power-tools" element={<PowerTools />} />
           <Route path="/products/hand-tools" element={<HandTools />} />
           <Route path="/products/electricals" element={<Electricals />} />
-
           {/* Route for Careers */}
         </Routes>
       </Router>
       <a
-        href="https://wa.me/0543538694"
+        href="https://wa.me/0527460533"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"

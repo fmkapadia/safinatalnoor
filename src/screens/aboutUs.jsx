@@ -24,11 +24,7 @@ import contactus1 from "../assets/img/add/aboutusexp1.png";
 
 import p1 from "../assets/img/products/Compression/p1.png";
 import p2 from "../assets/img/products/Compression/p2.png";
-import mustansir from "../assets/img/founder/mustansir.jpg";
-import abizer from "../assets/img/founder/abizer.jpg";
-import husain from "../assets/img/founder/husain.jpg";
-import rehana from "../assets/img/founder/rehana.jpg";
-import aboutUs from "../assets/img/banner/aboutusbanner4.png";
+
 import header from "../assets/img/header.png";
 import { useNavigate } from "react-router-dom";
 import { NavItem, NavLink, TabContent, TabPane } from "reactstrap";

@@ -22,14 +22,14 @@ import StatisticCounter from "../components/Elements/statisticsCounter";
 import FeatureGallery3 from "../components/Elements/featuredGallery3";
 import FeatureGallery2 from "../components/Elements/feturedGallery2";
 
-import f1 from "../assets/images/featured/adhesive.jpeg";
-import f2 from "../assets/images/featured/packingmaterial.jpeg";
-import f3 from "../assets/images/featured/weighingtool.jpeg";
-import f4 from "../assets/images/featured/meters.jpeg";
-import f5 from "../assets/images/featured/hardwaretr.jpeg";
-import f6 from "../assets/images/featured/powertools.jpeg";
-import f7 from "../assets/images/featured/toolset.jpeg";
-import f8 from "../assets/images/featured/pumps.jpeg";
+import f1 from "../assets/images/featured/adhesive.JPG";
+import f2 from "../assets/images/featured/packingmaterial.JPG";
+import f3 from "../assets/images/featured/weighingtool.JPG";
+import f4 from "../assets/images/featured/meters.JPG";
+import f5 from "../assets/images/featured/hardwaretr.JPG";
+import f6 from "../assets/images/featured/powertools.JPG";
+import f7 from "../assets/images/featured/toolset.JPG";
+import f8 from "../assets/images/featured/pumps.JPG";
 export default function Landing() {
   useEffect(() => {
     window.scrollTo(0, 0);

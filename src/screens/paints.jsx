@@ -34,8 +34,8 @@ import p19 from "../assets/images/paints/sprayPaintBlack.webp";
 // import p21 from "../assets/images/paints/white3pcs.webp";
 import p22 from "../assets/images/paints/whiteCable.webp";
 import FeatureGallery from "../components/Elements/featureGallery";
-import f1 from "../assets/images/featured/adhesive.jpeg";
-import f2 from "../assets/images/featured/safetyvest.jpeg";
+import f1 from "../assets/images/featured/adhesive.JPG";
+// import f2 from "../assets/images/featured/safetyvest.jpeg";
 const SvgWrapper = styled.div`
   position: relative;
   overflow: hidden;
@@ -227,11 +227,7 @@ const Paints = () => {
     },
   ];
 
-   
-const projectsData = [
-  { image: f1, title: "" },
-
-];
+  const projectsData = [{ image: f1, title: "" }];
   return (
     <React.Fragment>
       <TopNavbar />

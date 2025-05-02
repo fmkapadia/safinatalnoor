@@ -9,15 +9,17 @@ import contactus from "../../assets/img/contactus.webp";
 import fans from "../../assets/images/Fans/ceilingFan830.webp";
 import fasteners from "../../assets/images/fastners/alamFastners.webp";
 import furniture from "../../assets/images/furniture/halfRound.webp";
-import handTools from "../../assets/images/handTools/3pcsbrushes.webp";
+import handTools from "../../assets/images/handTools/13pcspullerTool.webp";
 import heaters from "../../assets/images/heaters/ariston100l.webp";
 import ladders from "../../assets/images/ladders/2Stepladder.webp";
 import paint from "../../assets/images/paints/miniPaintKit.webp";
 import rope from "../../assets/images/rope/cottonRope.webp";
-import waterPumps from "../../assets/images/waterPumps/carWashfoamMachine.webp";
+import waterPumps from "../../assets/images/waterPumps/espakit02.webp";
 import weighing from "../../assets/images/weighingProducts/craneScale.webp";
 import gt from "../../assets/images/garageTools/2pcsBoosterCable.webp";
 import sanitary from "../../assets/images/sanitary/18vBrushless125mm.webp";
+import powerTools from "../../assets/images/powerTools/boshgsb570.avif";
+import electricals from "../../assets/images/electricals/Air Tool Kit 7Pcs With Carry Bag(Air gun,Inflating gun,Spray gun,3m Spiral Hose.avif";
 // Styled Components
 const SectionWrapper = styled.section`
   padding: 60px 0;
@@ -148,6 +150,8 @@ const images = [
   weighing,
   heaters,
   handTools,
+  powerTools,
+  electricals,
 ];
 
 class Work extends Component {
@@ -191,7 +195,7 @@ class Work extends Component {
         },
 
         {
-          image: fans,
+          image: powerTools,
           title: "Power Tools",
         },
 
@@ -217,7 +221,7 @@ class Work extends Component {
           title: "  Garden Accessories",
         }, */
         {
-          image: sanitary,
+          image: electricals,
           title: "Electricals",
         },
       ],

@@ -12,15 +12,27 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
   return (
     <Wrapper className="animate lightBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
-        <div className="flexNullCenter">
-          <Img src={logoIcon} alt="Safinat al noor" />
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "15px",
+          }}
+        >
+          <img
+            src={logoIcon}
+            alt="Safinat al Noor"
+            style={{
+              height: "50px", // adjust as needed
+              width: "auto",
+            }}
+          />
           <h1
             style={{
-              marginLeft: "15px",
-              // fontWeight: "bold",
               fontSize: "2rem",
               color: "#4169E1",
-              fontFamily: "Brush Script MT ",
+              fontFamily: "Brush Script MT",
+              margin: 0,
             }}
           >
             Safinat al Noor
@@ -189,6 +201,7 @@ const Wrapper = styled.nav`
 `;
 const SidebarHeader = styled.div`
   padding: 20px 0;
+  display: flex;
 `;
 const CloseBtn = styled.button`
   border: 0px;

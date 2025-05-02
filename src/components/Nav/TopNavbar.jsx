@@ -31,14 +31,35 @@ export default function TopNavbar() {
         style={y > 100 ? { height: "60px" } : { height: "80px" }}
       >
         <NavInner className="container flexSpaceCenter">
-          <RouterLink className="pointer flexNullCenter" to="/" smooth={true}>
-            {/* <LogoIcon />
-             */}
-            <Img src={logo} alt="Safinat al Noor" />
-            {/* <Img1 src={eamah_text} alt="Eamah Entreprenure" /> */}
-            <Heading>
-              <h1>Safinat al Noor</h1>
-            </Heading>
+          <RouterLink
+            to="/"
+            className="pointer"
+            style={{
+              display: "flex",
+              alignItems: "center", // vertically center items
+              gap: "15px",
+              textDecoration: "none", // remove underline
+              border: "1px",
+            }}
+          >
+            <img
+              src={logo}
+              alt="Safinat al Noor"
+              style={{
+                height: "50px", // or adjust as needed
+                width: "auto",
+              }}
+            />
+            <h1
+              style={{
+                fontSize: "2rem",
+                color: "#4169E1",
+                fontFamily: "Brush Script MT",
+                margin: 0,
+              }}
+            >
+              Safinat al Noor
+            </h1>
           </RouterLink>
           <BurderWrapper
             className="pointer"

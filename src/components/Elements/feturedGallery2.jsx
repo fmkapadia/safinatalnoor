@@ -5,10 +5,10 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 
 //Import Images
-import contactus from "../../assets/img/contactus.webp";
-import f1 from "../../assets/images/featured/equipments.jpeg";
-import f2 from "../../assets/images/featured/powertools.jpeg";
-import f3 from "../../assets/images/featured/weighingtool.jpeg";
+// import contactus from "../../assets/img/contactus.webp";
+// import f1 from "../../assets/images/featured/equipments.jpeg";
+// import f2 from "../../assets/images/featured/powertools.jpeg";
+// import f3 from "../../assets/images/featured/weighingtool.jpeg";
 
 // Styled Components
 const SectionWrapper = styled.section`
@@ -74,18 +74,14 @@ const CardBody = styled.div`
 
 const ImageWrapper = styled.img`
   width: 100%;
-  
- 
 `;
-
-
 
 class Work extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        projects: props.projects || [], // Default to an empty array if no projects are passed
-      };
+      projects: props.projects || [], // Default to an empty array if no projects are passed
+    };
     this.setCategory = this.setCategory.bind(this);
   }
 
@@ -120,16 +116,12 @@ class Work extends Component {
                 >
                   <CardWrapper>
                     <CardBody>
-                     
-                        <ImageWrapper src={image} alt="work" />
-                     
+                      <ImageWrapper src={image} alt="work" />
                     </CardBody>
                   </CardWrapper>
                 </Col>
               ))}
             </Row>
-
-           
           </Container>
         </SectionWrapper>
       </React.Fragment>

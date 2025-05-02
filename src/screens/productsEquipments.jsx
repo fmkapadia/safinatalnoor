@@ -14,12 +14,10 @@ import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import contactus from "../assets/img/banner/banner4.png";
 import banner8 from "../assets/img/banner/productbanner.png";
-import b1 from "../assets/images/featured/equipments.jpeg";
-import b2 from "../assets/images/featured/powertools.jpeg";
-import b3 from "../assets/images/featured/weighingtool.jpeg";
-import f1 from "../assets/images/featured/equipments.jpeg";
-import f2 from "../assets/images/featured/powertools.jpeg";
-import f3 from "../assets/images/featured/weighingtool.jpeg";
+
+import f1 from "../assets/images/featured/equipments.JPG";
+import f2 from "../assets/images/featured/powertools.JPG";
+import f3 from "../assets/images/featured/weighingtool.JPG";
 // Styled components
 // const BreadcrumbContainer = styled.div`
 //   position: absolute;

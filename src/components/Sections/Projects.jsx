@@ -14,12 +14,12 @@ import ProjectImg3 from "../../assets/img/projects/3.png";
 import ProjectImg4 from "../../assets/img/projects/4.png";
 import ProjectImg5 from "../../assets/img/projects/5.png";
 import ProjectImg6 from "../../assets/img/projects/6.png";
-import p1 from "../../assets/images/featured/adhesive.jpeg";
-import p2 from "../../assets/images/featured/hardwaretr.jpeg";
-import p3 from "../../assets/images/featured/packingmaterial.jpeg";
-import p4 from "../../assets/images/featured/adhesive.jpeg";
-import p5 from "../../assets/images/featured/adhesive.jpeg";
-import p6 from "../../assets/images/featured/adhesive.jpeg";
+import p1 from "../../assets/images/featured/adhesive.JPG";
+import p2 from "../../assets/images/featured/hardwaretr.JPG";
+import p3 from "../../assets/images/featured/packingmaterial.JPG";
+import p4 from "../../assets/images/featured/adhesive.JPG";
+import p5 from "../../assets/images/featured/adhesive.JPG";
+import p6 from "../../assets/images/featured/adhesive.JPG";
 import p7 from "../../assets/img/products/Compression/p7.jpg";
 import p8 from "../../assets/img/products/Compression/p8.jpg";
 import AddImage2 from "../../assets/img/add/add2.png";
@@ -30,11 +30,10 @@ export default function Projects() {
     <Wrapper id="projects">
       <div className="whiteBg">
         <div className="container">
-         
           {/* <ImageCarousel /> */}
-{/*           <HomeGallery />
- */}        
-    <div className="row textCenter">
+          {/*           <HomeGallery />
+           */}
+          <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={p1}
@@ -85,7 +84,7 @@ export default function Projects() {
                 // action={() => alert("clicked")}
               />
             </div>
-          </div> 
+          </div>
 
           <div className="row flexCenter">
             {/* #0397DD */}
