@@ -92,7 +92,7 @@ export default function App() {
         </Routes>
       </Router>
       <a
-        href="https://wa.me/0527460533"
+        href="https://wa.me/0543595252"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"

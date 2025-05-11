@@ -11,13 +11,13 @@ import fasteners from "../../assets/images/fastners/alamFastners.webp";
 import furniture from "../../assets/images/furniture/halfRound.webp";
 import handTools from "../../assets/images/handTools/13pcspullerTool.webp";
 import heaters from "../../assets/images/heaters/ariston100l.webp";
-import ladders from "../../assets/images/ladders/2Stepladder.webp";
+import ladders from "../../assets/images/ladders/ladder.jpeg";
 import paint from "../../assets/images/paints/miniPaintKit.webp";
 import rope from "../../assets/images/rope/cottonRope.webp";
-import waterPumps from "../../assets/images/waterPumps/espakit02.webp";
+import waterPumps from "../../assets/images/waterPumps/pumps.jpeg";
 import weighing from "../../assets/images/weighingProducts/craneScale.webp";
-import gt from "../../assets/images/garageTools/2pcsBoosterCable.webp";
-import sanitary from "../../assets/images/sanitary/18vBrushless125mm.webp";
+import gt from "../../assets/images/garageTools/garageTools.jpeg";
+import sanitary from "../../assets/images/sanitary/sanitary.jpeg";
 import powerTools from "../../assets/images/powerTools/boshgsb570.avif";
 import electricals from "../../assets/images/electricals/Air Tool Kit 7Pcs With Carry Bag(Air gun,Inflating gun,Spray gun,3m Spiral Hose.avif";
 // Styled Components
@@ -84,7 +84,7 @@ const CardBody = styled.div`
 
 const ImageWrapper = styled.img`
   width: 100%;
-  height: 200px;
+  height: 250px;
   @media (max-width: 576px) {
     height: 150px; /* Smaller image height on small screens */
   }
